@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding:0px;
+	margin:0px auto;
+	
+}
+.header{
+	width:867px;
+	height:323px;
+	background-color:#3f0;
+	}
+.header embed{
+	width:867px;
+	height:323px;
+	}
+.nav{
+	width:867px;
+	height:51px;
+	background:url(images/linkbg.jpg)repeat-x;
+	float:left;
+	}
+ul li{
+	list-style:none;
+	}
+.nav ul{
+	height:51px;
+	line-height:51px;
+	}
+.nav ul li{
+	float:left;
+	width:124px;
+	background:url(images/linkr.gif) no-repeat right center;
+	text-align:center;
+	}
+.nav ul li.endLi{
+	width:123px;
+	}
+.nav ul li a{
+	text-decoration:none;
+	color:#fff;
+	font-size:12px;
+	}
+.footer{
+	width:867px;
+	height:110px;
+	background:url(images/bg.gif);
+	clear:both;
+	}
+.footer img{
+	margin-top:10px;
+	}
+.footer p{
+	color:#fff;
+	font-size:12px;
+	text-align:right;
+	margin-top:10px;
+	margin-right:10px;
+	}
